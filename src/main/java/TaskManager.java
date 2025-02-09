@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,5 +25,7 @@ public class TaskManager {
 
     public void exit() {
         // leave for iteration 2
+        System.out.println("Exiting......");
+        System.exit(0);
     }
 }
